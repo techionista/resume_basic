@@ -1,0 +1,172 @@
+/* General styling */
+body {
+  background: rgb(255, 255, 255);
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Droid Sans', sans-serif;
+  color: white;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: 'Droid Sans', sans-serif;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+li {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* NAVBAR & BANNER */
+.navbar #navbar-logo {
+  position: absolute;
+  margin-top: 8px;
+  height: 70px;
+}
+
+.navbar .navigation {
+  position: absolute;
+  top: 18px;
+  right: 30px;
+}
+
+.navbar a {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar a:hover {
+  color: rgb(200,200,200);
+  text-decoration: none;
+}
+
+
+#banner {
+  background-image: url('images/banner.jpg');
+  width: 100%;
+  background-size: cover;
+  height: 100vh;
+}
+
+.banner-content {
+  padding: 80px;
+  width: 50%;
+}
+
+/* ABOUT */
+#about {
+  padding: 200px 0;
+}
+.card-about {
+  padding: 50px;
+  height: 200px;
+  margin-bottom: 100px;
+}
+
+.card-about-title {
+  line-height: 90px;
+}
+
+#profile-picture {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.profile-section {
+  text-align: center;
+}
+.profile-section p {
+  padding: 100px 100px;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+
+/* PROJECTS */
+
+#projects {
+  background-color: #F5F7F9;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.projects-title {
+  text-align: center;
+  width: 100%;
+  padding: 80px 0;
+}
+
+.card-project {
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 0 0 6px 0 rgba(30,45,62,.09);
+  transition: box-shadow .2s;
+  margin: 10px;
+}
+
+.card-project:hover {
+  opacity: 0.8;
+}
+
+.card-project-img {
+  background-color: var(--grey-light);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 230px;
+  transition: opacity .2s;
+  opacity: .8;
+  border-radius: 3px 3px 0 0;
+}
+
+.card-project-content   {
+  padding: 30px;
+  padding: 38px;
+  font-weight: bold;
+}
+
+/*CONTACT*/
+
+#contact {
+  padding: 100px 0;
+  background-color: #D2D7DF;
+  text-align: center;
+}
+
+/*FOOTER*/
+
+#footer {
+  width: 100%;
+  text-align: center;
+  background-color: #8D909B;
+  padding: 50px 0;
+}
+
+#contact a:hover {
+  color:#F2D398;
+}
+
+#footer a:hover {
+  color:#F2D398;
+}
