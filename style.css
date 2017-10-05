@@ -65,7 +65,7 @@ a:hover {
 }
 
 #banner {
-  background-image: url('images/banner.jpg');
+  background-image: url('https://unsplash.it/1000/600');
   width: 100%;
   background-size: cover;
   height: 100vh;
