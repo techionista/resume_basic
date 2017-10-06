@@ -91,6 +91,9 @@ a:hover {
   line-height: 90px;
 }
 
+.card-project-img {
+  background-image: url('https://unsplash.it/300/300?random');
+}
 /* PROFILE SECTION */
 
 #profile-picture {
